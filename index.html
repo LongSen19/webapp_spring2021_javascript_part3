@@ -8,15 +8,15 @@
     </head>
 
     <body>
-        <div>
+        <div class="container">
             <form>
                 <fieldset class="border">
                     <legend class="w-auto">Google Books Search</legend>
                     <div class="form-group row">
-                        <label for="txtSearch" class="col-sm-1 col-form-label">
+                        <label for="txtSearch" class="col-lg-10 col-form-label">
                             keyword:
                         </label>
-                        <div class="col-sm-5 col-lg-4">
+                        <div class="col-sm-5 col-lg-10">
                             <input type="txt" id="txtSearch" name="txtSearch" class="form-control" placeholder="keyword...">
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <button type="submit" class="btn btn-primary" onclick="searchGoogleBooks()"> Submit </button>
-                        <button type="reset" class="btn btn-secondary"> Reset </button>
+                            <button type="reset" class="btn btn-secondary"> Reset </button>
                         </div>
                     </div>
                     <br>
@@ -32,7 +32,7 @@
             </form>
         </div>
 
-        <footer>
+        <footer class='container'>
             Copyright 2021 Google Books Search
         </footer>
 
